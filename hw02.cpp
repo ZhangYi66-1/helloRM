@@ -6,18 +6,18 @@ int main(){
         if(year%100==0){
             if(year%400==0)
             {
-                std::cout<<"yes";
+                std::cout<<"1";
             }  
             else{
-                std::cout<<"no";
+                std::cout<<"0";
             }
         }
         else{
-            std::cout<<"yes";
+            std::cout<<"1";
         }
     }
     else{
-        std::cout<<"no";
+        std::cout<<"0";
     }
     return 0;
 }
