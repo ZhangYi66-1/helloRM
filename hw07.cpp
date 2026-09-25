@@ -24,6 +24,11 @@ int main(){
 	for(int i=0;i<=len;i++){ 
 		move_(a[i],x,y);
 	}
-	std::cout<<"("<<x<<","<<y<<")";
+	if(x==0 && y==0){
+        std::cout<<"true";
+    }
+    else{
+        std::cout<<"false";
+    }
 	return 0;
 }
