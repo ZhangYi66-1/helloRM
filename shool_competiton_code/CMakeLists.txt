@@ -18,6 +18,7 @@ else()
                     "请执行: sudo apt install libzbar-dev")
 endif()
 
+
 add_executable(school_competition_code main.cpp)
 target_include_directories(school_competition_code PRIVATE ${OpenCV_INCLUDE_DIRS})
 target_link_libraries(school_competition_code ${OpenCV_LIBS})

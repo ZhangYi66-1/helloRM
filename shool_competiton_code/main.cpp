@@ -1178,6 +1178,7 @@ int main(int argc, char** argv)
         waitKey(RESULT_SHOW_MS);               // 原版是 waitKey(0)，这里不等按键
     }
 
+
     /* ================= ⑦ 向右转 1 秒后停止 ================= */
     cout << "\n--- ⑦ 向右转 1 秒 ---" << endl;
     turnFor(motor, CMD_RIGHT, TURN_AFTER_QR_MS, "向右转");
